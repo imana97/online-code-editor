@@ -1,0 +1,33 @@
+{
+  "name": "online-code-editor",
+  "version": "1.0.0",
+  "description": "Online code editor",
+  "main": "index.js",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imana97/online-code-editor.git"
+  },
+  "keywords": [
+    "online",
+    "code",
+    "editor"
+  ],
+  "author": "Iman Khaghani Far",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imana97/online-code-editor/issues"
+  },
+  "homepage": "https://github.com/imana97/online-code-editor#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "parse-dashboard": "^1.2.0",
+    "parse-server": "^2.7.4"
+  }
+}
